@@ -30,15 +30,6 @@ Just a small module to get all interesting IOC's on Windows
 and analyze the hashes of different file types like .exe, .sys, .dll to compare them with different API's from :
 Virustotal, HybridAnalysis, Any.Run, URLhaus, MISP, CAPE, Malshare, Valhalla, Hashlookup.  
 (For some tools it's just a matter of checking the URL, of course).  
-https://github.com/Oni-kuki/IOC_Grabber/blob/main/IOC_Grabber.ps1  
-* Be careful to have as many indicators as possible run the script with administrator rights  
 ```
 ./IOC_Grabber.ps1
-```
-### Hash-Parser | Parsing of Hash
-----
-For hash analysis, I wrote a small tool, to extract the md5, Sha1 and Sha256 hashes from any file type.  
-https://github.com/Oni-kuki/Hash-Parser  
-```
-./Hash-Parser.sh <filename>
 ```
