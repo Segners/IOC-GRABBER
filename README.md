@@ -16,7 +16,7 @@ pacman -S git
 ## Installation
 * *Linux*  
 ```
-git clone --recurse-submodules https://github.com/Segners/IOC-GRABBER
+git clone https://github.com/Segners/IOC-GRABBER
 ```  
 * *Windows*  
 However for the file ``IOC_Grabber.ps1`` it's possible that you are obliged to work in Offline in an optics of Forensic so you can obviously use other way to make it available on your machine.  
